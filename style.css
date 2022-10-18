@@ -1,0 +1,61 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.struttura{
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  border: 50%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sezione{
+  margin: 5%;
+  padding: 5%
+}
+
+header, nav{
+  text-align: center;
+}
+
+#logo{
+  width: 50%;
+}
+
+h1{
+  color: #00FF00;
+  font-size: 50px;
+}
+
+nav{
+  background-color: #00FF00;
+  padding: 10px;
+}
+/* prendo solo i div figli di main */
+main>div{
+  color: white;
+  margin: 5%;
+}
+/* unisco e diversifico con charge */
+.charge{
+  border-radius: 10px
+}
+
+.charge.gino{
+  background-color: orange;
+  width: 40%;
+}
+
+.charge.mike{
+  background-color: green;
+  width: 70%;
+}
+
+.charge.fede{
+  background-color: red;
+  width: 20%;
+}
